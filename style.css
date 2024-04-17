@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Stopwatch{
+    width: 33vw;
+    height: 41vh;
+    background: linear-gradient(rgb(20, 125, 205), rgb(10, 61, 68));
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.Stopwatch h1{
+    font-size: 3rem;
+}
+
+.Stopwatch img{
+    height: 12vh;
+}
